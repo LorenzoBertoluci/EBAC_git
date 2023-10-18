@@ -13,6 +13,7 @@ body {
 }
 
 header {
+    max-width: 1024px;
     padding: 16px;
     background-color: #182c61;
     color: #ecf0f2;
