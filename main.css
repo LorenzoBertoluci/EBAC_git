@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, section h2 {
+    font-family: 'Bungee', cursive;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 16px;
+    background-color: #182c61;
+    color: #ecf0f2;
+    display: flex;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f2;
+    text-decoration: none;
+}
+
+
+.container {
+
+    width: 100%; 
+    display: block;
+    margin: 0 auto;
+	margin-left: 50px;
+}
+
+.Featured{
+    display: flex;
+    align-items: center;
+
+}
+
+header .container, section .container {
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+
+    margin-right: 8px;
+	margin-left: 24px;
+}
+
+section .container {
+
+
+}
+
+
+
+section {
+    padding: 24px 0;
+}
+
+section h2 ,h3 {
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+section {
+
+    color: #182c61;
+}
+
+section p {
+    margin-bottom: 16px; 
+}
+
+.movie {
+    display: flex;
+    transition: transform 0.3s ease;
+    margin: 0  auto;
+	margin-bottom: 24px;
+    overflow: hidden;
+}
+
+.movie-poster img {
+	flex: 1;
+    width: 450px;
+    height: 600px;  
+    object-fit: cover; 
+}
+
+.movi-summary{
+    flex: 1;
+    max-width: 450px;
+    height: 600px;  
+    object-fit: cover; 
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.social-links{
+
+    margin-left: 32px;
+    margin: 0 auto;
+    text-decoration: none;
+
+}
+
+.social-links img {
+    height: 24px;
+    display: flex;
+}
+
+.social-links-img {
+    text-decoration: none;
+}
+
+
+.contact-methods {
+    display: flex;
+	padding-right: 16px; 
+    justify-content: space-between;
+
+}
+
+
+
+form input,
+form textarea,
+form button {
+    width: 100%; 
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #182c61;
+    color: #ecf0f2;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #314e9e;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+footer {
+    background-color: #182c61;
+    color: #ecf0f2;
+    padding: 16px 0;
+}
