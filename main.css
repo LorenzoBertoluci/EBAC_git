@@ -6,6 +6,7 @@
 
 header, section h2 {
     font-family: 'Bungee', cursive;
+    
 }
 
 body {
@@ -13,7 +14,6 @@ body {
 }
 
 header {
-    max-width: 1024px;
     padding: 16px;
     background-color: #182c61;
     color: #ecf0f2;
@@ -29,13 +29,13 @@ header nav li {
 header nav li a {
     color: #ecf0f2;
     text-decoration: none;
+    
 }
 
 
 .container {
     display: flex;
-    width: 100v; 
-
+    width: 100vh; 
     margin: 0 auto;
 	margin-left: 32px;
     margin-right: 32px;
@@ -70,8 +70,6 @@ section p {
 .Featured{
     display: grid;
     align-items: center;
-    overflow:scroll;
-
 }
 
 .movie {
@@ -83,14 +81,14 @@ section p {
 
 .movie-poster img {
 	flex: 1;
-    width: 450px;
+    max-width: 400px;
     height: 600px;  
     object-fit: cover; 
 }
 
 .movi-summary{
     flex: 1;
-    max-width: 450px;
+    max-width: 400px;
     height: 600px;  
     object-fit: cover; 
 }
